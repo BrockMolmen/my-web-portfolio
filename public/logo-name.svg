@@ -8,7 +8,8 @@
 	.st2{fill:none;stroke:#EDCD7E;stroke-width:16;stroke-linejoin:round;stroke-miterlimit:11.3386;}
 	.st3{fill:none;stroke:#56827F;stroke-width:16;stroke-linejoin:round;stroke-miterlimit:11.3386;}
 	.st4{fill:#303030;}
-	.st5{font-family:'Megrim';}
+	.st5{font-family:'Megrim';
+				src: url(https://fonts.googleapis.com/css2?family=Megrim&family=Raleway&display=swap)}
 	.st6{font-size:467.1107px;}
 	.st7{letter-spacing:-23;}
 	.st8{fill:none;stroke:#E4D9C0;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:11.3386;}

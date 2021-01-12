@@ -36,7 +36,6 @@ body {
 @media screen and (max-width: 1000px) {
   .main-logo {
     max-width: 90vw;
-    height: auto;
   }
 }
 

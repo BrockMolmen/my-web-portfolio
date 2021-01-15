@@ -13,7 +13,8 @@ $green: #56827F;
 
 body {
   background-color: $ltYellow;
-  color: $black
+  color: $black,
+  
 }
 
 .App {
@@ -88,6 +89,8 @@ justify-content: space-around;
   flex-flow: row wrap;
   list-style: none;
   justify-content: space-evenly;
+  margin:auto;
+  margin-right: 10%;
   li {
   padding: 1vh;
   }
@@ -207,6 +210,21 @@ justify-content: space-around;
 
 }
 
+.tech-card {
+  background-color: $green;
+  color: $ltYellow;
+  .proj-title{
+    color: $yellow;
+  }
+  .icon {
+    color: $orange;
+    transition: color 0.3s ease;
+    &:hover {
+      color: darken($orange, 10%)
+    }
+  }
+}
+
 .Footer {
   position: fixed;
   background-color: rgba(228, 217, 192, .6);
@@ -259,5 +277,14 @@ justify-content: space-around;
 
   &:hover {
     color: darken($ltBlack, 20%)
+  }
+}
+
+.icon-5 {
+  color: $yellow;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: darken($yellow, 20%)
   }
 }

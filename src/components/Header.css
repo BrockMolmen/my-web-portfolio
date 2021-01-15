@@ -21,6 +21,7 @@ header {
 header a {
   color: #FF9B61;
   transition: color 0.3s ease;
+  text-decoration: none;
 }
 
 header a:hover {

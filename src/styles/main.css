@@ -75,6 +75,8 @@ body {
   flex-flow: row wrap;
   list-style: none;
   justify-content: space-evenly;
+  margin: auto;
+  margin-right: 10%;
 }
 
 .tech-skills-list li {
@@ -215,6 +217,24 @@ body {
   }
 }
 
+.tech-card {
+  background-color: #56827F;
+  color: #e4d9c0;
+}
+
+.tech-card .proj-title {
+  color: #EDCD7E;
+}
+
+.tech-card .icon {
+  color: #FF9B61;
+  transition: color 0.3s ease;
+}
+
+.tech-card .icon:hover {
+  color: #ff7b2e;
+}
+
 .Footer {
   position: fixed;
   background-color: rgba(228, 217, 192, 0.6);
@@ -272,5 +292,14 @@ body {
 
 .icon-4:hover {
   color: #202020;
+}
+
+.icon-5 {
+  color: #EDCD7E;
+  transition: color 0.3s ease;
+}
+
+.icon-5:hover {
+  color: #e1aa24;
 }
 /*# sourceMappingURL=main.css.map */

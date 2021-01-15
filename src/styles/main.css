@@ -67,6 +67,18 @@ body {
 
 .email {
   justify-content: flex-end;
+  margin: -1vh;
+}
+
+.tech-skills-list {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.tech-skills-list li {
+  padding: 1vh;
 }
 
 .project-container {
@@ -205,6 +217,7 @@ body {
 
 .Footer {
   position: fixed;
+  background-color: rgba(228, 217, 192, 0.6);
   bottom: 0;
   left: 0;
   text-align: center;

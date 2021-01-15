@@ -80,7 +80,19 @@ justify-content: space-around;
 
 .email {
   justify-content: flex-end;
+  margin: -1vh;
 }
+
+.tech-skills-list {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  justify-content: space-evenly;
+  li {
+  padding: 1vh;
+  }
+}
+
 .project-container {
   display: flex;
   background-color: $yellow;
@@ -197,6 +209,7 @@ justify-content: space-around;
 
 .Footer {
   position: fixed;
+  background-color: rgba(228, 217, 192, .6);
   bottom: 0;
   left: 0;
   text-align: center;

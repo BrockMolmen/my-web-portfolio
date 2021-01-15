@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faDatabase, faCogs, faLevelUpAlt, faLevelupAlt } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faDatabase, faCogs, faLevelUpAlt } from '@fortawesome/free-solid-svg-icons'
 import { faFilePdf } from '@fortawesome/free-regular-svg-icons'
 import { faGithub, faLinkedinIn, faHtml5, faCss3Alt, faSass, faReact, faPython, faNode, faJsSquare } from '@fortawesome/free-brands-svg-icons'
 

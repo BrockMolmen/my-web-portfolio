@@ -16,7 +16,7 @@ const Projects = () => {
 
               </div>
               <div className="proj-right">
-                <p className="proj-deck">Blanched Almond is a fun and interactive way to sharpen a unique css skill, the 147 colors you can call by name. Levels are grouped by color family and increase in both number of colors and difficulty. Each level’s colors are loaded randomly for extra fun! </p>
+                <p className="proj-deck">Blanched Almond is a fun and interactive way to sharpen your css skills. There are 142 unique colors you can call by name, how many can you get correct?  Levels are grouped by color family and increase in both number of colors and difficulty. Each level’s colors are loaded randomly for extra fun! </p>
                 <div className="proj-gitbox">
                 <a href="https://github.com/BrockMolmen/blanched-almond" target="_blank" rel="noopener noreferrer" alt="GitHub" title="GitHub"><FontAwesomeIcon icon={faGithub} size="3x" className="icon" /></a>
                 <a href="https://brockmolmen.github.io/blanched-almond/" target="_blank" rel="noopener noreferrer"  alt="Blandched Almond - live site" title="Blandched Almond - live site"><FontAwesomeIcon icon={faDesktop} size="3x" className="icon" /></a>

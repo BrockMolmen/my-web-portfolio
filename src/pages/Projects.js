@@ -5,8 +5,27 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const Projects = () => {
   return (
+
     <div className="bump">
       <div className="stack-it">
+
+        <div className="project-container card-three">
+              <div className="proj-left">
+                <h1 className='proj-title '>Blanched Almond</h1>
+                <img className="proj-screenshot" src="BA1.jpg" alt="Blanched Almond Screenshot" />
+
+              </div>
+              <div className="proj-right">
+                <p className="proj-deck">Blanched Almond is a fun and interactive way to sharpen a unique css skill, the 147 colors you can call by name. Levels are grouped by color family and increase in both number of colors and difficulty. Each level’s colors are loaded randomly for extra fun! </p>
+                <div className="proj-gitbox">
+                <a href="https://github.com/BrockMolmen/blanched-almond" target="_blank" rel="noopener noreferrer" alt="GitHub" title="GitHub"><FontAwesomeIcon icon={faGithub} size="3x" className="icon" /></a>
+                <a href="https://brockmolmen.github.io/blanched-almond/" target="_blank" rel="noopener noreferrer"  alt="Blandched Almond - live site" title="Blandched Almond - live site"><FontAwesomeIcon icon={faDesktop} size="3x" className="icon" /></a>
+                </div>
+                
+                <p className="proj-tech">Javascript, HTML, CSS</p>
+              </div>
+            </div>
+
         <div className="project-container card-one">
           <div className="proj-left">
             <h1 className='proj-title'>Super Set</h1>
@@ -26,7 +45,7 @@ const Projects = () => {
         <div className="project-container card-two">
           <div className="proj-left">
             <h1 className='proj-title'>Soul Sip'n</h1>
-            <img className="proj-screenshot" src="SoulSipn1.jpg" alt="Super Set Screenshot" />
+            <img className="proj-screenshot" src="SoulSipn1.jpg" alt="Soul Sip'n Screenshot" />
 
           </div>
           <div className="proj-right">
@@ -41,22 +60,20 @@ const Projects = () => {
 
         <div className="project-container card-three">
           <div className="proj-left">
-            <h1 className='proj-title '>Blanched Almond</h1>
-            <img className="proj-screenshot" src="CCQ1.jpg" alt="Super Set Screenshot" />
+            <h1 className='proj-title '>CSS Color Quiz</h1>
+            <img className="proj-screenshot" src="CCQ1.jpg" alt="Color Quiz Screenshot" />
 
           </div>
           <div className="proj-right">
-            <p className="proj-deck">Currently undergoing rebranding and redesign, Blanched Almond is a fun and interactive way to sharpen a unique css skill, the 147 colors you can call by name. Levels are grouped by color family and increase in both number of colors and difficulty. Each level’s colors are loaded randomly for extra fun! </p>
+            <p className="proj-deck">Blanched Almond alpha version - color matching quiz based on color names that can be used in Cascading Style Sheets (CSS) for web design</p>
             <div className="proj-gitbox">
-            <a href="https://github.com/BrockMolmen/CSS-Color-Match" target="_blank" rel="noopener noreferrer" alt="GitHub" title="GitHub"><FontAwesomeIcon icon={faGithub} size="3x" className="icon" /></a>
-            <a href="https://brockmolmen.github.io/blanched-almond/" target="_blank" rel="noopener noreferrer"  alt="Blandched Almond - live site" title="Blandched Almond - live site"><FontAwesomeIcon icon={faDesktop} size="3x" className="icon" /></a>
+            <a href="hhttps://github.com/BrockMolmen/css-color-quiz" target="_blank" rel="noopener noreferrer" alt="GitHub" title="GitHub"><FontAwesomeIcon icon={faGithub} size="3x" className="icon" /></a>
+            <a href="https://brockmolmen.github.io/css-color-quiz/" target="_blank" rel="noopener noreferrer"  alt="Blandched Almond - live site" title="Blandched Almond - live site"><FontAwesomeIcon icon={faDesktop} size="3x" className="icon" /></a>
             </div>
             
             <p className="proj-tech">Javascript, HTML, CSS</p>
           </div>
         </div>
-
-       
 
       </div>
     </div>

@@ -4,8 +4,6 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faFilePdf } from '@fortawesome/free-regular-svg-icons'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
-
-
 const Footer = () => {
   return <div className="Footer">
     <ul>
